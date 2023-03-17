@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-using-css-grid-HlwtjkbNkW)
 - Live Site URL: [3 Column Card](https://3-column-card-alejandro.netlify.app)
 
 ## My process
