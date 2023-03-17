@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 4.8rem 0 6.4rem 4.8rem;
+  max-width: 30rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card--sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding-right: 4.8rem;
+}
+
+.card--suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding-right: 4.2rem;
+}
+
+.card--luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding-right: 4.2rem;
+}
+
+.card-icon {
+  margin-bottom: 3.2rem;
+}
+
+.card-title {
+  color: rgb(242, 242, 242);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2.8rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 9.6rem;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: rgb(242, 242, 242);
+  padding: 1.6rem 3rem;
+  border-radius: 100px;
+}
+
+.link:hover,
+.link:active {
+  background-color: transparent;
+  color: rgb(242, 242, 242);
+  box-shadow: 0 0 0 2px rgb(242, 242, 242) inset;
+}
+
+.link--sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.link--suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.link--luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

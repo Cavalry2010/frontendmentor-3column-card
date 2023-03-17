@@ -1,0 +1,21 @@
+@media (max-width: 26em) {
+  .container {
+    margin: 9.6rem auto;
+  }
+
+  .card-box {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    max-width: 32rem;
+  }
+
+  .card-title {
+    margin-bottom: 2.4rem;
+  }
+
+  .card-text {
+    margin-bottom: 4rem;
+  }
+}
